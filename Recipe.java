@@ -8,10 +8,10 @@ import java.util.HashMap;
 public class Recipe {
 
     public static HashMap<VatPham, Integer> thucPhamCanCho(VatPham vatPham) {
-
-        if(vatPham == VatPham.BangKeo) {
-            //return ...
-        }
+//
+//        if(vatPham == VatPham.BangKeo) {
+//            //return ...
+//        }
         return null;
     }
 

@@ -1,6 +1,7 @@
 package sprite.ConVat;
 
 import enumm.TrangThaiConVat;
+import sprite.Chuong.Chuong;
 import sprite.Sprite;
 
 /**
@@ -10,6 +11,7 @@ public class ConVat extends Sprite{
 
     TrangThaiConVat trangThai;
     public int timeRemaining;
+    public Chuong chuongBelongTo;
     public String animation;
 
     @Override

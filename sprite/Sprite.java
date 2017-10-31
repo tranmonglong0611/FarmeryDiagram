@@ -14,8 +14,8 @@ public abstract class Sprite {
     int height;
     int id;
     public String image;
-    NhaKho nhaKho;
-    KhoLuongThuc khoLuongThuc;
+//    NhaKho nhaKho;
+//    KhoLuongThuc khoLuongThuc;
 
 
     HashMap<Integer, Integer> logicPosition;

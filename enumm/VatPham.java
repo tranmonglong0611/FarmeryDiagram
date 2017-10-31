@@ -5,8 +5,9 @@ package enumm;
  */
 public enum VatPham {
 
-    ThucAnGa, ThucAnBo, Trung, SuaBo, BanhMy, DinhOc,
-    MinPhaDa, BangKeo, HopDinh, VanDai, DinhVit, VanDoi, Riu, Cua
+    ThucAnGa, ThucAnBo, Trung,
+//    SuaBo, BanhMy, DinhOc,
+//    MinPhaDa, BangKeo, HopDinh, VanDai, DinhVit, VanDoi, Riu, Cua
 
 
 }

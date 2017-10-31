@@ -5,5 +5,6 @@ package enumm;
  */
 public enum LuongThuc {
 
-    DauTuong, LuaMy, Bap, Mia, Carot
+    DauTuong, LuaMy, Bap,
+//    Mia, Carot
 }

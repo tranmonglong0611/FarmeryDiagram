@@ -1,4 +1,5 @@
 import javafx.scene.input.TouchEvent;
+import sprite.Sprite;
 
 import java.awt.*;
 
@@ -13,10 +14,12 @@ public class Shop {
     Button xuongButton;
     Button cayButton;
     Button trangTriButton;
+    Map map;
+
 
     //show shop tuy theo level
-    public Shop(int level) {
-
+    public Shop(Map map) {
+        //truyen vao map de con kiem soat so luong con lai cua tung vat pham co the mua
         //add onClick function cho tung cai button tuy theo level
     }
 
@@ -24,15 +27,22 @@ public class Shop {
 
     }
 
-    public void onOneTouch(TouchEvent event) {
-
+    public boolean onOneTouch(TouchEvent event) {
+        return false;
+        //return true if it is a valid item to be bought
     }
 
     public void onLongTouch(TouchEvent event) {
 
     }
 
-    public void dragAndDrop(TouchEvent event) {
+
+    public void isValid(Sprite sprite) {
 
     }
+
+
+
+
+
 }

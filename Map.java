@@ -15,7 +15,9 @@ public class Map {
     int numberOfSprites;                    // used to generate id for new sprite()
     NhaKho nhaKho;
     KhoLuongThuc khoLuongThuc;
+
     int level;
+    int money;
 
 
 
@@ -29,6 +31,14 @@ public class Map {
     public void onOneTouchEvent(TouchEvent event) {
         //get the sprite.Sprite at that position and
         // sprite.onTouchEvent();
+    }
+
+    public void onTouchEnd(TouchEvent event) {
+
+    }
+
+    public void onTouchMoved(TouchEvent event) {
+
     }
 
     public void onTwoTouchEvent(TouchEvent event) {
